@@ -12,6 +12,7 @@ using MetroSet_UI.Interfaces;
 
 namespace ReducerCounter
 {
+    //2131234
     public partial class Form1 : MetroSetForm
     {
         public Form1()
