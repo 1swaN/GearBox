@@ -671,7 +671,7 @@ namespace ReducerCounter
             this.groupBox4.ForeColor = System.Drawing.Color.Black;
             this.groupBox4.Location = new System.Drawing.Point(18, 164);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(812, 285);
+            this.groupBox4.Size = new System.Drawing.Size(825, 285);
             this.groupBox4.TabIndex = 91;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ввод";
