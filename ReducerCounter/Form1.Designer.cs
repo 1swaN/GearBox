@@ -213,7 +213,7 @@ namespace ReducerCounter
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(122, 161);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(536, 213);
+            this.groupBox1.Size = new System.Drawing.Size(545, 213);
             this.groupBox1.TabIndex = 68;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ввод";
@@ -230,21 +230,21 @@ namespace ReducerCounter
             // 
             // n_text
             // 
-            this.n_text.Location = new System.Drawing.Point(444, 174);
+            this.n_text.Location = new System.Drawing.Point(480, 176);
             this.n_text.Name = "n_text";
             this.n_text.Size = new System.Drawing.Size(50, 24);
             this.n_text.TabIndex = 67;
             // 
             // ExPower_text
             // 
-            this.ExPower_text.Location = new System.Drawing.Point(444, 25);
+            this.ExPower_text.Location = new System.Drawing.Point(480, 24);
             this.ExPower_text.Name = "ExPower_text";
             this.ExPower_text.Size = new System.Drawing.Size(50, 24);
             this.ExPower_text.TabIndex = 41;
             // 
             // nu4text
             // 
-            this.nu4text.Location = new System.Drawing.Point(444, 150);
+            this.nu4text.Location = new System.Drawing.Point(480, 151);
             this.nu4text.Name = "nu4text";
             this.nu4text.Size = new System.Drawing.Size(50, 24);
             this.nu4text.TabIndex = 66;
@@ -261,21 +261,21 @@ namespace ReducerCounter
             // 
             // nu3text
             // 
-            this.nu3text.Location = new System.Drawing.Point(444, 125);
+            this.nu3text.Location = new System.Drawing.Point(480, 126);
             this.nu3text.Name = "nu3text";
             this.nu3text.Size = new System.Drawing.Size(50, 24);
             this.nu3text.TabIndex = 65;
             // 
             // ExCircles_text
             // 
-            this.ExCircles_text.Location = new System.Drawing.Point(444, 49);
+            this.ExCircles_text.Location = new System.Drawing.Point(480, 50);
             this.ExCircles_text.Name = "ExCircles_text";
             this.ExCircles_text.Size = new System.Drawing.Size(50, 24);
             this.ExCircles_text.TabIndex = 44;
             // 
             // nu2text
             // 
-            this.nu2text.Location = new System.Drawing.Point(444, 100);
+            this.nu2text.Location = new System.Drawing.Point(480, 101);
             this.nu2text.Name = "nu2text";
             this.nu2text.Size = new System.Drawing.Size(50, 24);
             this.nu2text.TabIndex = 64;
@@ -286,13 +286,13 @@ namespace ReducerCounter
             this.label3.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(23, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 17);
+            this.label3.Size = new System.Drawing.Size(441, 17);
             this.label3.TabIndex = 45;
-            this.label3.Text = "Введите значение nu1";
+            this.label3.Text = "Введите значение η1 (КПД пары зубчатых колес редуктора)";
             // 
             // nu1text
             // 
-            this.nu1text.Location = new System.Drawing.Point(444, 75);
+            this.nu1text.Location = new System.Drawing.Point(480, 76);
             this.nu1text.Name = "nu1text";
             this.nu1text.Size = new System.Drawing.Size(50, 24);
             this.nu1text.TabIndex = 63;
@@ -303,9 +303,9 @@ namespace ReducerCounter
             this.label4.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(23, 108);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 17);
+            this.label4.Size = new System.Drawing.Size(412, 17);
             this.label4.TabIndex = 46;
-            this.label4.Text = "Введите значение nu2";
+            this.label4.Text = "Введите значение η2 (КПД пары подшипников передачи)";
             // 
             // label7
             // 
@@ -323,9 +323,9 @@ namespace ReducerCounter
             this.label5.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(23, 133);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 17);
+            this.label5.Size = new System.Drawing.Size(351, 17);
             this.label5.TabIndex = 47;
-            this.label5.Text = "Введите значение nu3";
+            this.label5.Text = "Введите значение η3 (КПД открытой передачи)";
             // 
             // label6
             // 
@@ -333,9 +333,9 @@ namespace ReducerCounter
             this.label6.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label6.Location = new System.Drawing.Point(23, 158);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(169, 17);
+            this.label6.Size = new System.Drawing.Size(258, 17);
             this.label6.TabIndex = 48;
-            this.label6.Text = "Введите значение nu4";
+            this.label6.Text = "Введите значение η4 (КПД муфты)";
             // 
             // tabPage2
             // 
@@ -580,9 +580,9 @@ namespace ReducerCounter
             this.label11.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label11.Location = new System.Drawing.Point(6, 154);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(244, 17);
+            this.label11.Size = new System.Drawing.Size(204, 17);
             this.label11.TabIndex = 82;
-            this.label11.Text = "Введите значение SIGMA_F (МПа)";
+            this.label11.Text = "Введите значение σF (МПа)";
             // 
             // c_text
             // 
@@ -597,9 +597,9 @@ namespace ReducerCounter
             this.label12.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label12.Location = new System.Drawing.Point(6, 129);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(253, 17);
+            this.label12.Size = new System.Drawing.Size(458, 17);
             this.label12.TabIndex = 81;
-            this.label12.Text = "Введите значение SIGMA_Ha (МПа)";
+            this.label12.Text = "Введите значение σHa (Допустимаое напряжение колеса, МПа)";
             // 
             // alpha_text
             // 
@@ -719,10 +719,10 @@ namespace ReducerCounter
             this.label16.Font = new System.Drawing.Font("GOST type B", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label16.Location = new System.Drawing.Point(15, 120);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(724, 17);
+            this.label16.Size = new System.Drawing.Size(731, 17);
             this.label16.TabIndex = 82;
-            this.label16.Text = "Имеется ли у вас смещение Х (несовпадение делительного диаметра с начальным) 1- Д" +
-    "а, 2 - Нет";
+            this.label16.Text = "Имеется ли у вас смещение Х (несовпадение делительного диаметра с начальным) 1 - " +
+    "Да, 2 - Нет";
             // 
             // label17
             // 
